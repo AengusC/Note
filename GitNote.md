@@ -25,6 +25,8 @@
 1.就是你在电脑里能看到的目录,比如我的`AengusChen.github.io`文件夹就是一个工作区
 2.工作区有一个隐藏目录.git,这个不算工作区,而是Git的版本库,Git的版本库里存了很多东西,其中最重要的就是称为stage（或者叫index）的暂存区,还有Git为我们自动创建的第一个分支`master`,以及指向master的一个指针叫HEAD。
 3.git管理的是修改,也就是说每次修改需要git add <file> 放入到暂存区,然后`git commit`才能算最终的修改。
+
+
 ![0.jpg](https://i.loli.net/2020/03/11/gZGwzKQbujBacJM.jpg)
 ***
 
